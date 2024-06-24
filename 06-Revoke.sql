@@ -1,1 +1,1 @@
-GRANT UPDATE on Books to 'martin'@'localhost';
+REVOKE UPDATE on Books to 'martin'@'localhost';
