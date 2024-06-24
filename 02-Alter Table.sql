@@ -1,4 +1,4 @@
 ALTER TABLE Books
 ADD 
-publisher TEXT not NULL,
-pages_number INTEGER VARCHAR(4);
+    publisher TEXT NOT NULL,
+    pages_number INTEGER CHAR(4);
