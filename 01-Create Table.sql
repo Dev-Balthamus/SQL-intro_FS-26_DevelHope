@@ -4,8 +4,8 @@ CREATE TABLE Books (
   author TEXT NOT NULL,
   genre TEXT NOT NULL,
   published_year INTEGER NOT NULL,
-  isbn INTEGER VARCHAR(13),
-  price INTEGER NOT NULL,
-  rating INTEGER VARCHAR(1),
+  isbn INTEGER CHAR(13),
+  price REAL NOT NULL,
+  rating DECIMAL(2,1),
   stock_count INTEGER NOT NULL
 )
